@@ -55,9 +55,11 @@ Infinite Scroll Pagination – для реализации бесконечно�
 
 
 
-
 ### API
 
 Приложение использует публичное API: https://rickandmortyapi.com/
+
+
+![](https://github.com/Trivalll/rick_morty_app/Test.gif)
 
 
