@@ -1,16 +1,63 @@
 # rick_morty_app
 
-A new Flutter project.
+Flutter Character App
 
-## Getting Started
+## Описание
 
-This project is a starting point for a Flutter application.
+Приложение на Flutter, которое загружает список персонажей из API Rick and Morty. 
+Позволяет добавлять персонажей в избранное, поддерживает пагинацию, 
+кэширование и сохранение избранных в локальной базе данных.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Функционал
+
+#### 1. Главный экран (Список персонажей)
+   
+1)Отображает карточки персонажей с изображением, именем и дополнительной информацией.
+
+2)Кнопка "звездочка" для добавления/удаления персонажа из избранного.
+
+3)Поддержка пагинации: загрузка новых данных при прокрутке.
+
+#### 2. Экран "Избранное"
+   
+1)Отображает список избранных персонажей.
+
+2)Возможность сортировки (по имени, статусу и другим параметрам).
+
+3)Удаление персонажа из избранного.
+
+
+
+#### 4. Навигация
+1)Переключение между экранами с помощью BottomNavigationBar.
+
+#### 5. Дополнительно
+1)Кэширование загруженных данных для работы без интернета.
+
+2)Сохранение избранных персонажей в локальной базе данных (Hive).
+
+3)Использование менеджера состояния Provider.
+
+4)API-запросы через Dio.
+
+### Технологии
+Flutter – основа проекта.
+
+Dio – выполнение API-запросов.
+
+Hive – локальное хранилище.
+
+Provider – менеджер состояния.
+
+Infinite Scroll Pagination – для реализации бесконечной прокрутки.
+
+
+
+
+### API
+
+Приложение использует публичное API: https://rickandmortyapi.com/
+
+
